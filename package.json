@@ -1,0 +1,39 @@
+{
+  "name": "bluepaint",
+  "displayName": "Blue Paint",
+  "description": "A blue VS Code theme",
+  "version": "0.1.0",
+  "publisher": "anweber",
+  "homepage": "https://github.com/AnWeber/bluepaint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnWeber/bluepaint"
+  },
+  "bugs": {
+    "url": "https://github.com/AnWeber/bluepaint/issues"
+  },
+  "keywords": [
+    "Theme",
+    "Light Theme",
+    "BluePaint"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "BluePaint",
+        "uiTheme": "vs",
+        "path": "./themes/bluepaint-theme.json"
+      }
+    ]
+  }
+}
