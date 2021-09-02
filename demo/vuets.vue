@@ -28,8 +28,9 @@ export default class Counter extends Vue {
   decrement() {
     this.count--
   }
-  test(): number{
-    return 2;
+  test(): string{
+    const test = this.propC.toString();
+    return test;
   }
 }
 </script>
