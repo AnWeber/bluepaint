@@ -658,7 +658,7 @@
 				"support"
 			],
 			"settings": {
-				"foreground": "#0D47A1"
+				"foreground": "#26A69A"
 			}
 		},
 		{
@@ -683,7 +683,6 @@
 		},
 		{
 			"scope": [
-				"entity.name.type",
 				"entity.other.inherited-class",
 				"variable.other.constant",
 				"meta.function-call",
@@ -698,6 +697,7 @@
 		},
 		{
 			"scope": [
+				"entity.name.type",
 				"meta.function-call entity.name.function",
 				"meta.method-call entity.name.function"
 			],
@@ -715,7 +715,7 @@
 				"keyword.other.template"
 			],
 			"settings": {
-				"foreground": "#4CAF50"
+				"foreground": "#43A047"
 			}
 		},
 		{
@@ -794,8 +794,37 @@
 
 		{
 			"scope": [
-				"entity.name.tag",
+				"entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#1565c0"
+			}
+		},
+
+		{
+			"scope": [
+				"entity.name.tag.yaml",
 				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+
+		{
+			"scope": [
+				"source.yaml string",
+				"source.yaml string.quoted",
+				"source.yaml string.regexp",
+				"source.yaml string.interpolated",
+				"source.yaml string.template",
+				"source.yaml keyword.other.template",
+				"source.json string",
+				"source.json string.quoted",
+				"source.json string.regexp",
+				"source.json string.interpolated",
+				"source.json string.template",
+				"source.json keyword.other.template"
 			],
 			"settings": {
 				"foreground": "#1565c0"
@@ -838,14 +867,6 @@
 			],
 			"settings": {
 				"foreground": "#1565c0"
-			}
-		},
-		{
-			"scope": [
-				"entity.name.type"
-			],
-			"settings": {
-				"foreground": "#000000"
 			}
 		},
 		{

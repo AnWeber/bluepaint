@@ -29,8 +29,9 @@ export default class Counter extends Vue {
     this.count--
   }
   test(): string{
+    const tes1t: string = "hello world";
     const test = this.propC.toString();
-    return test;
+    return `${tes1t}+${test}`;
   }
 }
 </script>
