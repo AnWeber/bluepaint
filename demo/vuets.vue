@@ -33,5 +33,11 @@ export default class Counter extends Vue {
     const test = this.propC.toString();
     return `${tes1t}+${test}`;
   }
+
+  private async test2(): Promise<string>{
+    const tes1t: string = "hello world";
+    const test = this.propC.toString();
+    return `${tes1t}+${test}`;
+  }
 }
 </script>

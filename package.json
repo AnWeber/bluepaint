@@ -17,9 +17,6 @@
     "Light Theme",
     "BluePaint"
   ],
-  "scripts": {
-    "publish": "vsce publish"
-  },
   "engines": {
     "vscode": "^1.17.0"
   },
