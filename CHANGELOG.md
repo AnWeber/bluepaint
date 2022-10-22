@@ -1,3 +1,8 @@
+## v0.6.0
+
+* change terminal red color
+
+
 ## v0.5.0
 
 * change terminal colors
