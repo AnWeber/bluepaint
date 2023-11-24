@@ -1,3 +1,6 @@
+## 0.8.0
+* add better diffEditor colors
+
 ## 0.7.0
 
 * change textPreformat.foreground
