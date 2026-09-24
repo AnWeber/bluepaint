@@ -1,6 +1,9 @@
+## 0.8.2
+* update activity bar badge
+
+
 ## 0.8.1
 * update activity bar
-
 
 ## 0.8.0
 * add better diffEditor colors
